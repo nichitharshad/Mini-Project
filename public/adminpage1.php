@@ -11,13 +11,10 @@
 <body>
     <div class="main-container">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Online Result</a>
+            <a class="navbar-brand" href="../index.php">Online Result</a>
             <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="aboutus.php">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contactus.php">Contact Us</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -25,7 +22,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="studentdata.php">Add Marks</a>
-                    <a class="dropdown-item" href="../result.php">Result</a>
+                    <a class="dropdown-item" href="mainpage.php">Result</a>
                     <a class="dropdown-item" href="usermessage.php">User Message</a>
                 </div>
              </li>

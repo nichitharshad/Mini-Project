@@ -20,16 +20,16 @@ if(isset($_SESSION['uid']))
     <div class="main-container">
        <form action="registerpage.php" method="POST">
        <div class="register-page">
-           <h1>REGISTRATION</h1>
-           <h4>Fill the following Data correctly.</h4>
+           <h1>  REGISTRATION</h1><br>
+           <h4>Fill the following Data correctly.</h4><br>
             <Label for="name">Student Name:</Label>
-            <input type="text" name="name" id="name" required> <br>
+            <input type="text" name="name" id="name" required> <br><br>
             <label for="phoneno">Mobile Number:</label>
-            <input type="number" name="phoneno" id="phoneno"required> <br>
+            <input type="number" name="phoneno" id="phoneno"required> <br><br>
             <label for="email">Email Id:</label>
-            <input type="email" name="email" id="email"required> <br>
+            <input type="email" name="email" id="email"required> <br><br>
             <label for="password">Password</label>
-            <input type="password" id="password" name="password"required> <br>
+            <input type="password" id="password" name="password"required> <br><br><br>
             <div class="button">
                 <form action="login.php" method="post">
                     <input type="submit" value="Register" name="submit">

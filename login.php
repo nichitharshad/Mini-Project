@@ -23,9 +23,9 @@ if(isset($_SESSION['uid']))
         <h4>Fill the email and password correctly</h4>
         <div class="login-page">
             <label for="email">Email Id:</label>
-            <input type="email" name="email" id="email"required> <br>
+            <input type="email" name="email" id="email" placeholder="Enter E-mail Id" required> <br>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password"required> <br>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required> <br><br>
             <div class="login-button">
                 <form action="result.php" method="POST"><input type="submit" value="Login" name="submit"></form>
             </div>

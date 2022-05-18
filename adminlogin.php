@@ -20,9 +20,9 @@ if(isset($_SESSION['uid']))
             <h1>Admin Login</h1>
             <div class="login-content">
                 <label for="username">Username:</label>
-                <input type="text" name="username" id="username"required> <br>
+                <input type="text" name="username" id="username" placeholder="Admin Username" required> <br>
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password"required> <br>
+                <input type="password" id="password" name="password"placeholder="Password" required> <br><br>
                 <div class="login-button">
                     <form action="result.php" method="POST"><input type="submit" value="Login" name="submit"></form>
                 </div>

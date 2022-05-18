@@ -25,16 +25,13 @@ session_start();
 <body>
     <div class="main-container">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Online Result</a>
+            <a class="navbar-brand" href="../index.php">Online Result</a>
             <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="aboutus.php">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contactus.php">Contact Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="result.php">Result</a>
+                <a class="nav-link" href="mainpage.php">Result</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="logout.php">Logout</a>

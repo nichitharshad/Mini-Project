@@ -34,7 +34,7 @@
           </nav>
       </div>
       <div class="main-content" id="content">
-        <h2>Welcome to Online Result Portal</h2>
+        <h2>  Welcome <br> on Online Result Portal</h2>
         <p>Find ur Result here. <br> First register yourself on this portal by filling proper personal details and then login to see your result😊</p>
       </div>
     </div> 

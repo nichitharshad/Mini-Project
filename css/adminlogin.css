@@ -8,16 +8,17 @@
 body{
     height: 700px;
     width: 100%;
-    background-image:url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');    background-size: cover;
+    background-image:url(../public/Logingb.jpg);    
+    background-size: cover;
     background-repeat: no-repeat;
     /* overflow: hidden; */
 }
 .main-container{
-    background-color:transparent;
-    height: 250px;
-    width: 50%;
+    background-color:white;
+    height: 275px;
+    width: 32%;
     border: 3px solid black;
-    border-radius: 7px;
+    border-radius: 10px;
     opacity: 5;
     text-align: center; 
     margin:auto;
@@ -25,11 +26,12 @@ body{
 }
 
 .main-container h1{
-    color: #fff;
+    color: rgb(71, 36, 101);
     font-family:cursive ;
     font-weight: bold;
     font-style: oblique;
     padding: 1rem;
+    font-size: 40px;
 }
 h1:hover{
     color: black;
@@ -54,7 +56,7 @@ h1:hover{
     width: 250px;
 }
 .login-page .login-content .login-button input{
-    background-color: #6F4E37;
+    background-color: #223753;
     font-size: 15px;
     height: 30px;
     width: 150px;

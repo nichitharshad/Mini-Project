@@ -12,7 +12,7 @@ CREATE TABLE `student_data` (
   `u_mothername` text COLLATE utf8_unicode_ci NOT NULL,
   `u_dob` text COLLATE utf8_unicode_ci NOT NULL,
   `u_rollno` int(2) NOT NULL,
-  `u_class` int(2) NOT NULL,
+  `u_class` varchar(2) NOT NULL,
   `u_mobileno` text COLLATE utf8_unicode_ci NOT NULL,
   `u_address` text COLLATE utf8_unicode_ci NOT NULL,
   

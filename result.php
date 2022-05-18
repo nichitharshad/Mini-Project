@@ -31,7 +31,7 @@ if(isset($_POST['submit']))
 <body>
     <div class="main-container">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Online Result</a>
+            <a class="navbar-brand" href="index.php">Home</a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="public/aboutus.php">About Us</a>
@@ -134,11 +134,11 @@ if(isset($_POST['submit']))
                     <th><span class="colorchange">
                         <?php echo $all=$total1+$total2+$total3+$total3+$total4+$total5+$total6+$total7;?></span>
                     </th>
-                    <th>1000</th>  
+                    <th>1400</th>  
                 </tr>     
             </table>             <h1>You Are <span class="colorchange1">
                 <?php 
-                    if($all<=500) 
+                    if($all<=560) 
                     {
                         echo "Fail";
                     }
