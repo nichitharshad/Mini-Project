@@ -11,7 +11,7 @@
 <body>
     <div class="main-container">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <a class="navbar-brand" href="#">Online Result</a>
+                <a class="navbar-brand" href="../index.php">Online Result</a>
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="aboutus.php">About Us</a>
@@ -27,12 +27,15 @@
         <div class="main-content">
             <form action="../result.php" method="POST">
             <div class="content">
-                <h2>Search Your Result</h2>
+                <h1>Search Your Result</h1>
                 <label for="class">Classname:</label>
                 <input type="text" name="class" id="class" placeholder="Enter your Classname"> <br>
                 <label for="rollno">Roll No:</label>
-                <input type="number" name="rollno" id="rollno" placeholder="Enter your RollNO"> <br>
-                <input type="submit" value="Search" name="submit" class="button">
+                <input type="number" name="rollno" id="rollno" placeholder="Enter your RollNO"> <br><br>
+                <!-- <div class="seach-button">
+                <form action="result.php" method="POST"><input type="submit" value="Search" name="submit"></form>
+                </div> -->
+                <input type="submit" value="Search" name="submit" class="button" id="searchbtn">
             </div>
             </form>
         </div>

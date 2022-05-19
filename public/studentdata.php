@@ -30,7 +30,7 @@
         </nav>
         <div class="main-content">
             <form action="addmarks.php" method="post">
-            <h1>Student Details</h1>
+            <h1>Student Details</h1><br>
             <div class="content">
                 <label for="fname">First Name:</label>
                 <input type="text" name="fname" id="fname" placeholder="First name" required>
@@ -47,9 +47,9 @@
                 <label for="rollno">RollNO:</label>
                 <input type="number" name="rollno" id="rollno"placeholder="Enter your Rollno">
                 <label for="class">Class:</label>
-                <input type="number" name="class" id="class"placeholder="Enter your Class"> <br>
+                <input type="text" name="class" id="class"placeholder="Enter your Class"> <br>
                 <label for="address">Address:</label>
-                <input type="textarea" name="address" id="address" placeholder="Address" required><br>
+                <input type="textarea" name="address" id="address" placeholder="Address" required><br><br>
             </div>
             <input type="submit" name="submit" value="Next" id="submit">
             </form>

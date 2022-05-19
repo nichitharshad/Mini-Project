@@ -48,7 +48,7 @@ if(isset($_POST['submit']))
         $data=mysqli_fetch_array($result);
         $id=$data['id'];
         $_SESSION['uid']=$id;
-        echo "You are Successfully login!!";
+        echo "You are Successfully logged in!!";
         header('location:public/mainpage.php');
     }
     else

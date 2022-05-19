@@ -30,7 +30,7 @@
         </nav>
         <div class="maincontent">
             <form action="updatemarks.php" method="post">
-            <h3>Marks Details:</h3>
+            <h1>Marks Details:</h1>
             <h4>Semester-1</h4>
             <label for="english1">English:</label>
             <input type="number" name="english1" id="english1"placeholder="     /100">
