@@ -22,7 +22,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="studentdata.php">Add Marks</a>
-                    <a class="dropdown-item" href="mainpage.php">Result</a>
+                    <a class="dropdown-item" href="a_mainpage.php">Result</a>
                     <a class="dropdown-item" href="usermessage.php">User Message</a>
                 </div>
              </li>

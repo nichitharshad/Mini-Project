@@ -7,7 +7,7 @@ if(isset($_POST['submit']))
 	
 	$class=$_POST['class'];
 	$rollno =$_POST['rollno'];
-	$sql="SELECT * FROM `student_data` WHERE `u_class`='$class' AND `u_rollno`='$rollno'";
+	$sql="SELECT * FROM `student_data` WHERE  `u_class`='$class' AND `u_rollno`='$rollno'";
     $sql2="SELECT * FROM `user_marks` WHERE `u_class`='$class' AND `u_rollno`='$rollno'";
     $run=mysqli_query($con,$sql);
     $run2=mysqli_query($con,$sql2);

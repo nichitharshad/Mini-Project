@@ -81,6 +81,7 @@ if(isset($_POST['submit']))
     $lname=$_POST['lname'];
     $fathername=$_POST['fathername'];
     $mothername=$_POST['mothername'];
+    $_SESSION['mothername']=$_POST['mothername'];
     $mobileno=$_POST['mobileno'];
     $dob=$_POST['dob'];
     $rollno=$_POST['rollno'];

@@ -25,16 +25,15 @@
                 </ul>
         </nav>
         <div class="main-content">
-            <form action="../result.php" method="POST">
+            <form action="../s_result.php" method="POST">
             <div class="content">
                 <h1>Search Your Result</h1>
                 <label for="class">Classname:</label>
                 <input type="text" name="class" id="class" placeholder="Enter your Classname"> <br>
                 <label for="rollno">Roll No:</label>
-                <input type="number" name="rollno" id="rollno" placeholder="Enter your RollNO"> <br><br>
-                <!-- <div class="seach-button">
-                <form action="result.php" method="POST"><input type="submit" value="Search" name="submit"></form>
-                </div> -->
+                <input type="number" name="rollno" id="rollno" placeholder="Enter your RollNO"> <br>
+                <label for="mothername">Mother Name:</label>
+                <input type="text" name="mothername" id="mothername" placeholder="Enter your mothername"><br><br>
                 <input type="submit" value="Search" name="submit" class="button" id="searchbtn">
             </div>
             </form>

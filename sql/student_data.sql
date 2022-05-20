@@ -9,7 +9,7 @@ CREATE TABLE `student_data` (
   `u_fname` text COLLATE utf8_unicode_ci NOT NULL,
   `u_lname` text COLLATE utf8_unicode_ci NOT NULL,
   `u_fathername` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_mothername` text COLLATE utf8_unicode_ci NOT NULL,
+  `u_mothername` varchar(50) NOT NULL,
   `u_dob` text COLLATE utf8_unicode_ci NOT NULL,
   `u_rollno` int(2) NOT NULL,
   `u_class` varchar(2) NOT NULL,

@@ -15,6 +15,7 @@ include('../dbconnect.php');
     // $rollno=$_POST['rollnum'];
     $rollno=$_SESSION['rollno'];
     $class=$_SESSION['class'];
+    $mothername=$_SESSION['mothername'];
     $english1=$_POST['english1'];
     $marathi1=$_POST['marathi1'];
     $hindi1=$_POST['hindi1'];
@@ -31,7 +32,7 @@ include('../dbconnect.php');
     $geography2=$_POST['geography2'];
     $science2=$_POST['science2'];
     
-    $sql="INSERT INTO `user_marks`(`u_rollno`,`u_class`,`u_english1`, `u_marathi1`, `u_hindi1`, `u_maths1`, `u_history1`, `u_geography1`, `u_science1`, `u_english2`, `u_marathi2`, `u_hindi2`, `u_maths2`, `u_history2`, `u_geography2`, `u_science2`) VALUES ('$rollno','$class','$english1','$marathi1','$hindi1','$maths1','$history1','$geography1','$science1','$english2','$marathi2','$hindi2','$maths2','$history2','$geography2','$science2')";
+    $sql="INSERT INTO `user_marks`(`u_rollno`, `u_class`, `u_mothername`, `u_english1`, `u_marathi1`, `u_hindi1`, `u_maths1`, `u_history1`, `u_geography1`, `u_science1`, `u_english2`, `u_marathi2`, `u_hindi2`, `u_maths2`, `u_history2`, `u_geography2`, `u_science2`) VALUES('$rollno','$class','$mothername','$english1','$marathi1','$hindi1','$maths1','$history1','$geography1','$science1','$english2','$marathi2','$hindi2','$maths2','$history2','$geography2','$science2')";
     
     $run=mysqli_query($con,$sql);
     
@@ -46,3 +47,4 @@ include('../dbconnect.php');
     }
 }
 ?>
+   

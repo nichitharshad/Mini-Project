@@ -7,6 +7,7 @@ CREATE TABLE `user_marks` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `u_rollno` int(2) NOT NULL,
   `u_class` varchar(2) NOT NULL,
+  `u_mothername` varchar(50) NOT NULL,
   `u_english1` int(2) NOT NULL,
   `u_marathi1` int(2) NOT NULL,
   `u_hindi1` int(2) NOT NULL,
