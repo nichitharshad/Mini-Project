@@ -2,7 +2,7 @@
 session_start();
 if(isset($_SESSION['uid']))
 {
-	header('location:public/mainpage.php');	
+	header('location:public/s_mainpage.php');	
 }
 ?>
 
@@ -49,7 +49,7 @@ if(isset($_POST['submit']))
         $id=$data['id'];
         $_SESSION['uid']=$id;
         echo "You are Successfully logged in!!";
-        header('location:public/mainpage.php');
+        header('location:public/s_mainpage.php');
     }
     else
     {
